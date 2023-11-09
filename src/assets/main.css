@@ -1,0 +1,56 @@
+@import './base.css';
+
+/* Establece el fondo de la página en color negro */
+body {
+  background-color: black;
+  text-align: center;
+}
+
+/* Estilos para centrar la imagen */
+.center-image {
+  text-align: center;
+  margin-top: 20px; /* Ajusta el espacio entre el navbar y la imagen */
+}
+
+.center-image img {
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+}
+
+/* Estilos para las tarjetas */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  width: 250px;
+  margin: 20px;
+  background-color: #141325;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+  border: 2px solid red; /* Agregar un borde de color rojo */
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: red;
+}
+
+.card p {
+  font-size: 14px;
+  color: white;
+}
+
+footer p{
+  color: white;
+  text-align: center;
+}
